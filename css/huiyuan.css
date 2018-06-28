@@ -1,0 +1,153 @@
+*{
+	margin: 0; 
+	padding:0;
+	list-style: none; 
+}
+.head{
+	height: 100px;
+    overflow: hidden;
+    background: rgb(0, 0, 0,0.75);
+}
+.container{
+	width: 1170px;
+	height: 100px;
+	padding-right: 15px;
+    padding-left: 15px;
+    margin-right: auto;
+    margin-left: auto;
+}
+.containerL{
+	width: 50%;
+}
+.containerR{
+	width: 50%;
+	padding-left: 50%;
+}
+ul{
+	float: left;
+	overflow: hidden;
+}
+li{
+	float: left;
+    height: 100px;
+    line-height: 100px;
+    font-size: 22px;
+    padding-right: 10px;
+}
+li>a{
+	display: block;
+	padding-top: 20px;
+	box-sizing: border-box;	
+}
+li span{
+	color: white;
+}
+ul li:last-child span{
+	padding-left: 20px;
+	border-left: 2px solid #ddd;
+	box-sizing: border-box;
+
+}
+li>a{
+	display: block;
+}
+.containerR>a{
+	display: block;
+	color: #337ab7;
+	float: right;
+	line-height: 100px;
+	margin-right: 0;
+}
+/* 中部开始 */
+.zhongbu{
+	width: 1349px;
+	height: 423px;
+	padding: 50px 0;
+	background-image:url('../img/huiyuanbj.jpg');
+	background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center;
+}
+.container{
+	padding-right: 15px;
+    padding-left: 15px;
+    margin-right: auto;
+    margin-left: auto;
+}
+.login{
+	max-width: 400px;
+    margin: 0px 10px;
+    background-color: rgba(255,255,255,.7);
+    padding: 30px;
+    box-sizing: border-box;
+}
+.input{
+	margin-bottom: 15px;
+	overflow: hidden;
+}
+.input input{
+	height: 43px;
+	display: block;
+    width: 100%;
+    padding: 6px 12px;
+    font-size: 14px;
+    line-height: 1.42857143;
+    color: #555;
+    background-color: #fff;
+    box-shadow: inset 0 1px 1px rgba(0,0,0,.075);
+    border: 0;
+    box-sizing: border-box;
+}
+.forget{
+	text-align: right;
+    margin-bottom: 15px;
+    
+}
+.forget a{
+	font-size: 14px;
+    line-height: 1.42857143;
+    color: #337ab7;
+}
+.forget a:hover{
+	color: #23527c;
+    text-decoration: underline;
+}
+.btn{
+	display: block;
+    width: 100%;
+    padding: 10px 16px;
+    font-size: 18px;
+    line-height: 1.3333333;
+    color: #fff;
+    background-color: #337ab7;
+    font-weight: 400;
+    border: none;
+    outline: none;
+}
+.btn:hover{
+	color: #fff;
+    background-color: #286090;
+    border-color: #204d74;
+}
+a.btn{
+	margin-top: 20px;
+	color: #fff;
+    background-color: #5bc0de;
+    border-color: #46b8da;
+    box-sizing: border-box;
+    text-align: center;
+}
+a.btn:hover{
+	color: #fff;
+    background-color: #31b0d5;
+    border-color: #269abc;
+}
+.bottom{
+	text-align: center;
+    padding: 30px;
+    color: #777;
+    box-sizing: border-box;
+}
+.bottom p{
+	font-size: 14px;
+}
